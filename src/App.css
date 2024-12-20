@@ -1,6 +1,48 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #eef2f7;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Styling for the main container */
+div {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Component wrapper */
+.component-wrapper {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading styling */
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+  margin: 4px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+p:last-child {
+  font-weight: bold;
+  color: #222;
 }
